@@ -8,7 +8,7 @@ on:
   workflow_dispatch: # Tillader manuel trigger
 
 env:
-  IMAGE_NAME: jaqoub/mywebserver:latest
+  IMAGE_NAME: jaqoub/mywebserver
 
 jobs:
   build-and-push:
